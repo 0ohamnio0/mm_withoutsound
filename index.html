@@ -14,6 +14,8 @@
   </head>
   <body>
     <div class="webgl-content">
+    <div id="unity-topIntent-button" style="position: absolute; bottom: 40px; right: 0; z-index: 10;"
+              onclick="unityInstance.SendMessage('JavascriptHook', 'SetIntent','promise')">topIntent</div>
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
